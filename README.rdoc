@@ -10,7 +10,7 @@ ruby 2.1.2p95
 
 * System dependencies
 Is necessary install PostgreSQL,
-follow the link http://www.postgresql.org/ for more instructions how to install this database.
+follow the link http://www.postgresql.org for more instructions how to install this database.
 
 * Configuration
 
