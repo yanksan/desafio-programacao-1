@@ -10,7 +10,8 @@
 
 <div class="container">
   <% if user_signed_in? %>
-    <%=t 'devise.logged_in_html', email: current_user.email %> <%= link_to t('devise.edit'), edit_user_registration_path %> | <%= link_to t('devise.logout'), destroy_user_session_path, { method: :delete } %><hr>
+    <%=t 'devise.logged_in_html', email: current_user.email %> <%= link_to t('devise.edit'), edit_user_registration_path %> | <%= link_to t('devise.logout'), destroy_user_session_path, { method: :delete } %>
+    <hr>
   <% end %>
 
   <%= yield %>
