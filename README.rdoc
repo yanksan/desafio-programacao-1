@@ -1,20 +1,19 @@
 * Ruby version
-ruby 2.1.2p95
+  ruby 2.1.2p95
 
 * System dependencies
-Is necessary install PostgreSQL,
-follow the link http://www.postgresql.org for more instructions how to install this database.
+  Is necessary install PostgreSQL, follow the link http://www.postgresql.org for more instructions how to install this database.
 
 * Configuration
 
 * Install gems
-First, install gems with bundle install.
+  First, install gems with bundle install.
 
 * Database creation
-Is necessary create user with name "desafio-programacao-1" and password "teste123".
-Just type this command in PostgreSQL database: CREATE USER "desafio-programacao-1" WITH PASSWORD 'teste123' CREATEDB;
+  Is necessary create user with name "desafio-programacao-1" and password "teste123".
+  Just type this command in PostgreSQL database: CREATE USER "desafio-programacao-1" WITH PASSWORD 'teste123' CREATEDB;
 
 * Database initialization
-After PostgreSQL and user "desafio-programacao-1" its finished, run the follow commands: 
-rake db:create
-rake db:migrate
+  After PostgreSQL and user "desafio-programacao-1" its finished, run the follow commands: 
+  rake db:create
+  rake db:migrate
